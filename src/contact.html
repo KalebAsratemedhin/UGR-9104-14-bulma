@@ -2,71 +2,117 @@
 <html lang = "en">
     <head>
         <meta lang="en-us" charset="utf-8">
-        <title>About</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"/>
+        <title>Contact</title>
+        <script src="JS/script.js"></script>
     </head>
     <body>
         <header>
-            <img src="images/my_logo.PNG" alt="logo" width="50" height="50">
-          <nav>
-            <a href="contact.html">Contact</a>
-            <button class="menu-button"><img src="images/menu.png" alt="menu logo" width="30" height="30"></button>
-            <div class="menu-content">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="blog.html">Blog</a></li>          
+          <nav class="navbar has-background-warning has-text-white" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand is-justify-content-space-between">
+              <div class="navbar-item image is-64x64" >
+                <img class="is-rounded" src="images/my_logo.PNG" alt="logo" width="50" height="50">
+              </div>
+              <div class="navbar-item">
+                <a href="contact.html">Contact</a>
+              </div>
+          
+              <div>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                  </a>
+              </div>
+            </div>
+          
+            <div id="navbarBasicExample" class="navbar-menu has-background-warning-light">
+              <div class="navbar-start">
+                <ul class="navbar-end is-justify-content-space-between ">
+                  <li class="navbar-item"><a href="index.html">Home</a></li>
+                  <li class="navbar-item"><a href="portfolio.html">Portfolio</a></li>
+                  <li class="navbar-item"><a href="About.html">About</a></li>
+                  <li class="navbar-item"><a href="blog.html">Blog</a></li>          
                 </ul>
+              </div>
             </div>
           </nav>
         </header>
-        <main>
+        <main class="notification content is-normal">
           <h1>Contact me</h1>
-          <section>
+          <section class="card notification content is-normal">
+            
             <h2>Location</h2>
-          <address>
-            <p>Country: Ethiopia</p>
-            <p>City: Addis Ababa</p>
-            <p>Subcity: Gulele</p>
-            <p>Street: Algeria st.</p>
-            <p>Building: Addis Ababa University 6 Kilo Campus</p>
-          </address>
-            <h3>Do you need a map?</h3>
+            <div class="content is-normal">
+              <div class="columns is-desktop">
+                <address class="column is-4">
+                  <p>Country: Ethiopia</p>
+                  <p>City: Addis Ababa</p>
+                  <p>Subcity: Gulele</p>
+                  <p>Street: Algeria st.</p>
+                  <p>Building: Addis Ababa University 6 Kilo Campus</p>
+                </address>
+                <div class="notification column is-4">
+                    <h3>Do you need a map?</h3>
+                    <div class="image is-3by2">
+                      <iframe  class="has-ratio" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31374.23891274205!2d38.749191241457574!3d9.044389829794438!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8fcdfd73345d%3A0x71d655e4e7c6c79e!2zQUEgVW5pdmVyc2l0eSA2IEtpbG8gQ2FtcHVzIHwg4YqgLuGKoCDhi6nhipLhiajhiK3hiLLhibIgNiDhiqrhiI4g4Yqr4Yid4Y2T4Yi1!5e0!3m2!1sen!2set!4v1700983219781!5m2!1sen!2set" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31374.23891274205!2d38.749191241457574!3d9.044389829794438!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8fcdfd73345d%3A0x71d655e4e7c6c79e!2zQUEgVW5pdmVyc2l0eSA2IEtpbG8gQ2FtcHVzIHwg4YqgLuGKoCDhi6nhipLhiajhiK3hiLLhibIgNiDhiqrhiI4g4Yqr4Yid4Y2T4Yi1!5e0!3m2!1sen!2set!4v1700983219781!5m2!1sen!2set" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+              </div>
+            </div>
           </section>
-          <section>
-            <h2>Social Media</h2>
-            <p>Feel free to reach me via the following.</p>
-            <ul>
-              <li><img src="images/gmail.png" alt="gmail logo" width="50" height="50">&nbsp;<a href="mailto:risekab@gmail.com">Email</a></li>
-              <li><img src="images/telegram.png" alt="telegram logo" width="50" height="50">&nbsp;<a href="https://t.me/Thequantumduck">Telegram</a></li>
-              <li><img src="images/twitter.png" alt="twitter logo" width="50" height="50">&nbsp;<a href="https://twitter.com/risekab">Twitter</a></li>
-              <li><img src="images/instagram.png" alt="instagram logo" width="50" height="50">&nbsp;<a href="https://instagram.com/daffytribbiani/">Instagram</a></li>
-            </ul>
-            <h3>You want to hire me? These are for you.</h3>
-            <ul>
-              <li><img src="images/linkedin.png" alt="linked in logo" width="50" height="50">&nbsp;<a href="https://linkedin.com/in/kaleb-asratemedhin-81748625b">Linked in</a></li>
-              <li><img src="images/github.png" alt="github logo" width="50" height="50">&nbsp;<a href="https://github.com/KalebAsratemedhin">Github</a></li>
-              <li><img src="images/leetcode.png" alt="leetcode logo" width="50" height="50">&nbsp;<a href="https://leetcode.com/4ureyes/">Leetcode</a></li>
-              
-            </ul>
-            <a href="other_resources/final-cv.pdf" download="button">Download cv</a>
+          <section class="columns  is-4-tablet is-4-desktop notification content is-normal ">
+            <div class="column is-one-half notification">
+              <div class="card px-6 py-6 ">
+                  <h2>Social Media</h2>
+                  <p>Feel free to reach me via the following.</p>
+                  <ul>
+                    <li><img src="images/gmail.png" alt="gmail logo" width="50" height="50">&nbsp;<a href="mailto:risekab@gmail.com">Email</a></li>
+                    <li><img src="images/telegram.png" alt="telegram logo" width="50" height="50">&nbsp;<a href="https://t.me/Thequantumduck">Telegram</a></li>
+                    <li><img src="images/twitter.png" alt="twitter logo" width="50" height="50">&nbsp;<a href="https://twitter.com/risekab">Twitter</a></li>
+                    <li><img src="images/instagram.png" alt="instagram logo" width="50" height="50">&nbsp;<a href="https://instagram.com/daffytribbiani/">Instagram</a></li>
+                  </ul>
+              </div>
+                
+            </div>
+            <div class="column is-one-half notification ">
+              <div class="card px-6 py-6 ">
+                <h3>You want to hire me? These are for you.</h3>
+                <ul class="is-unstyled">
+                  <li><img src="images/linkedin.png" alt="linked in logo" width="50" height="50">&nbsp;<a href="https://linkedin.com/in/kaleb-asratemedhin-81748625b">Linked in</a></li>
+                  <li><img src="images/github.png" alt="github logo" width="50" height="50">&nbsp;<a href="https://github.com/KalebAsratemedhin">Github</a></li>
+                  <li><img src="images/leetcode.png" alt="leetcode logo" width="50" height="50">&nbsp;<a href="https://leetcode.com/4ureyes/">Leetcode</a></li>
+                  
+                </ul>
+                <a href="other_resources/final-cv.pdf" download="button">Download cv</a>
+              </div>
+            </div>
           </section>
         </main>
-        <footer>
-            <hr>
-              <a href="https://twitter.com/risekab"><img src="images/twitter.png" alt="twitter logo" width="50" height="50"></a>
-              <a href="https://instagram.com/daffytribbiani/"><img src="images/instagram.png" alt="instagram logo" width="50" height="50"></a>
-              <a href="https://t.me/Thequantumduck"><img src="images/telegram.png" alt="telegram logo" width="50" height="50"></a>
-              <a href="https://linkedin.com/in/kaleb-asratemedhin-81748625b"><img src="images/linkedin.png" alt="linked in logo" width="50" height="50"></a>
-              <p>copyright &copy; all rights reserved.</p>
-              <address>
+        <footer class="footer is-fullwidth notification is-black">        
+          <hr>
+          <div class="content has-text-centered columns is-variable is-vcentered">
+            <a class="column is-one-quarter" href="index.html">back to top</a>
+            <div class="column is-one-half ">
+              <div class="columns is-vcentered is-mobile">
+                <a class="column is-one-quarter" href="https://twitter.com/risekab"><img src="images/twitter.png" alt="twitter logo" width="50" height="50"></a>
+                <a class="column is-one-quarter" href="https://instagram.com/daffytribbiani/"><img src="images/instagram.png" alt="instagram logo" width="50" height="50"></a>
+                <a class="column is-one-quarter" href="https://t.me/Thequantumduck"><img src="images/telegram.png" alt="telegram logo" width="50" height="50"></a>
+                <a class="column is-one-quarter" href="https://linkedin.com/in/kaleb-asratemedhin-81748625b"><img src="images/linkedin.png" alt="linked in logo" width="50" height="50"></a>
+             
+              </div>
+            </div>
+            <div class="column is-one-quarter">
+              <address >
                 Author: Kaleb Asratemedhin <br>
                 Address: Addis Ababa, Ethiopia <br>
                 Telephone: +251996304541 <br>
-             </address>
-             <a href="contact.html">back to top</a>
+              </address>
+              <p> &copy; all rights reserved.</p>
+            </div>
+          </div>
         </footer>
     </body>
 </html>
